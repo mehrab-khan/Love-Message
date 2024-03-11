@@ -1,0 +1,309 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400..700&family=Didact+Gothic&family=Dosis:wght@200..800&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  overflow: hidden
+}
+.container{
+    animation: bounce 0.3s infinite alternate;
+    margin-left: -70%;
+    margin-top: 10%;
+    position: absolute;
+    
+}
+.truck{
+    animation: moveCar 8s linear infinite;
+    margin-top: 2%;
+   
+}
+@keyframes moveCar {
+0% {
+    margin-left: -60%;
+}
+ 
+20%{
+    margin-left: 20%;
+}
+ 
+50% {
+    margin-left: 100%;
+}
+60% {
+    margin-left: 100%;
+}
+100% {
+    margin-left: 200%;
+}
+}
+
+.truck-container{
+     
+    height: 400px;
+   
+    width:844px;
+}
+@keyframes bounce {
+ 0% {
+ transform: translateY(0);
+ }
+100% {
+ transform: translateY(-6px); /* Adjust the distance of the bounce */
+ }
+}
+.msg-container{
+    position: absolute;
+    width: 320px;
+    margin-top:6%;
+    margin-left: 3%;
+    height: 200px;
+    background-color: pink;
+}
+.body-down-bar{
+    height: 20px;
+    width: 518px;
+    position: absolute;
+    margin-left: 2.6%;
+    margin-top: 29.2%;
+    border-radius:  10px 10px 10px 10px;
+    background-color: brown;
+}
+.engine-part{
+    height: 82px;
+    width: 178px;
+    border-radius: 0 18px 0 0;
+    background-color: pink;
+    margin-top: 19.5%;
+    margin-left: 41.5%;
+    position: absolute;
+}
+.driver-part{
+    height: 70px;
+    width: 131px;
+    border-radius: 0 60px 0 0;
+    background-color: pink;
+    margin-top: 11.3%;
+    margin-left: 41.5%;
+    position: absolute;
+}
+.window{
+    height: 51px;
+    width: 105px;
+    left: 10%;
+    top: 12%;
+    border-radius: 0 60px 0 0;
+    background-color: purple;
+    position: absolute;
+    
+}
+.light{
+    width: 20px;
+    height: 100px;
+    background-color: rgb(233, 0, 109);
+    transform: perspective(8px) rotateX(7deg);
+     rotate: 270deg;
+     margin: 50px;
+     box-shadow: 3px 2px 4px 0px rgba(233,0,109,0.17);
+    -webkit-box-shadow: 3px 2px 4px 0px rgba(233,0,109,0.17);
+    -moz-box-shadow: 3px 2px 4px 0px rgba(233,0,109,0.17);
+     margin-left: 150%;
+     margin-top: 50%;
+}
+.lightbar{
+    height: 20px;
+    width: 5px;
+    z-index: 1;
+    top: 150%;
+    position: absolute;
+    left: 135%;
+    background-color: grey;
+}
+.gas-pumper
+{
+height: 69px;
+width: 20px;
+background-color: rgb(0, 0, 0);
+position: absolute;
+left: 0%;
+top :-97%;
+}
+.gas-pumper-part{
+height: 18px;
+background-color: black;
+width: 51px;
+position: absolute;
+border-radius:  10px 0 0 0;
+left: -32%;
+top: -97%;
+}
+.tire01 , .tire02, .tire03, .tire04{
+height: 74px;
+width: 74px;
+animation: rotate 3s linear infinite; 
+border-radius: 50%;
+background-color: grey;
+border: 8px solid rgb(77, 24, 0);
+}
+
+@keyframes rotate {
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(360deg);
+}
+}
+.bar01{
+width:75px;
+top: 48%;
+left: -1%;
+transform: rotate(91deg);
+height: 4px;
+position: relative;
+background-color: black;
+}
+.bar02{
+position: relative;
+top: 44%;
+left: 0%;
+width: 75px;
+height: 4px;
+background-color: black;
+}
+.bar03{
+width:75px;
+top: 38%;
+left: -1%;
+transform: rotate(47deg);
+height: 4px;
+position: relative;
+background-color: black;
+}
+.bar04{
+width:75px;
+top: 33%;
+left: 0%;
+transform: rotate(-40deg);
+height: 4px;
+position:relative;
+background-color: black;
+}
+.tire01{
+position: absolute;
+top: 180%;
+left: 58%;
+}
+.tire02{
+position: absolute;
+top: 180%;
+left: -74%;
+}
+.tire03{
+position: absolute;
+top: 180%;
+left: -145%;
+}
+.tire04{
+position: absolute;
+top: 180%;
+left: -223%;
+}
+.img1{
+width: 35%;
+position: absolute;
+}
+.gas{
+margin-left: -184%; 
+margin-top: -270%;
+height: 106px;
+width: 206px;
+
+}
+
+.letter-body{
+   
+  
+  overflow: hidden;
+  width: 760px;
+  height: 590px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2%;
+}
+.letter-title{
+  font-family: "Dancing Script", cursive;
+  font-size: 28px;
+  text-align: center;
+  margin-top: -1%;
+  color: rgb(0, 153, 255);
+}
+hr{
+  margin-top: -1%;
+}
+.form-control:active, .form-control:focus, .form-control.focus {
+  border-color: #ced4da;  
+  box-shadow: none; 
+}
+.dear-name{
+  font-family: "Dancing Script", cursive;
+  font-size: 22px;
+  margin-top: 1%;
+}
+.letter-details {
+  width: 700px;
+  padding-left: 1%;
+  padding-right: 1%;
+  border: none;
+  border-bottom: 1px solid rgb(3, 121, 255);
+  height: 40px;
+  font-size: 19px;
+  font-family: "Dancing Script", cursive;
+}
+.letter-details:focus{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(3, 121, 255);
+}
+.sendbtn{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  color: rgb(3, 121, 255);
+  float: right;
+  margin-top: 4%;
+  transition: 1s;
+  width: 100px;
+  border-radius: 25px;
+}
+.sendbtn:hover{
+  background-color: rgb(0, 140, 255);
+  color: rgb(255, 255, 255);
+  border: none;
+}
+.animation-image{
+  background-color: aqua;
+  overflow: hidden;
+  width: 760px;
+  height: 590px;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2%;
+  position: absolute;
+ 
+}
+.imgOfSent{
+  transition: 1s;
+  width: 760px;
+  height: 590px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2%;
+}
